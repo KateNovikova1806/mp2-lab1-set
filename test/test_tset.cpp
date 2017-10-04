@@ -4,7 +4,7 @@
 
 TEST(TSet, can_get_max_power_set)
 {
-  const int size = 5;
+  const int size = 10;
   TSet set(size);
 
   EXPECT_EQ(size, set.GetMaxPower());
@@ -295,3 +295,4 @@ TEST(TSet, check_negation_operator)
 
   EXPECT_EQ(expSet, set1);
 }
+
